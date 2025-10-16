@@ -1,0 +1,13 @@
+npm init <- 這個指令會開始創建一個新node.js 專案
+但是在開始輸入指令後終端會有一些問題需要回覆
+npm init --y / npm init --yes
+會以yes自動回覆所有問題
+
+"name": "cse341",
+  "version": "1.0.0",
+  "main": "server.js", <- 主要執行的檔案
+  "scripts": 
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+
+npm install express 執行完後，會出現一個node_modules裡面的內容超大，不需要全部都上傳奧github去，就會在gitinore記下node_modules
