@@ -2,9 +2,7 @@
 const express = require('express');
 const app = express();
 
-app.get('/', (req, res) => {
-  res.send('Hello Bernie!');
-});
+app.use("/", require("./routes"));
 
 const port = 3000;
 

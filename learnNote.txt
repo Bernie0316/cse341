@@ -11,3 +11,5 @@ npm init --y / npm init --yes
     "start": "node server.js"
 
 npm install express 執行完後，會出現一個node_modules裡面的內容超大，不需要全部都上傳奧github去，就會在gitinore記下node_modules
+
+nodemon 是個好東西，可以監控code變化及時更新並顯示在browser上

@@ -1,0 +1,7 @@
+app.get('/', (req, res) => {
+  res.send('Hello Bernie!');
+});
+// get 後面的 /try 是路徑，當瀏覽器輸入 localhost:3000/try 時會觸發這個路由
+app.get('/try', (req, res) => {
+  res.send('You are trying Bernie!');
+});
